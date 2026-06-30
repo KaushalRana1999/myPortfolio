@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+  background: #39ff8f;
+  color: #0a0e0d;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0a0e0d;
+  color: #d8e3df;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0e0d;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f8f56;
+  border-radius: 0;
+}
+
+.crt {
+  position: relative;
+}
+.crt::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(57, 255, 143, 0.025) 0px,
+    rgba(57, 255, 143, 0.025) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  z-index: 999;
+  mix-blend-mode: overlay;
+}
+
+/* Light theme overrides */
+.light body {
+  background-color: #f4f6f4;
+  color: #0f1714;
+}
+
+.terminal-window {
+  border: 1px solid rgba(57, 255, 143, 0.25);
+  background: #101614;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4), 0 20px 60px -20px rgba(57, 255, 143, 0.12);
+}
+
+.light .terminal-window {
+  background: #ffffff;
+  border-color: rgba(31, 143, 86, 0.25);
+  box-shadow: 0 20px 60px -25px rgba(31, 143, 86, 0.18);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid #39ff8f;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
