@@ -18,7 +18,7 @@ const sans = Inter({
 
 
 export const metadata: Metadata = {
-  title: "Your Name — Full-Stack Developer",
+  title: "Kaushal Rana — Full-Stack Developer",
   description:
     "Portfolio of Kaushal Rana, a B.Tech Computer Science & Engineering student and full-stack developer specializing in the MERN stack, Java, and Spring Boot.",
   keywords: [
