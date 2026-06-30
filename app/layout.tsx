@@ -20,7 +20,7 @@ const sans = Inter({
 export const metadata: Metadata = {
   title: "Your Name — Full-Stack Developer",
   description:
-    "Portfolio of [Your Name], a B.Tech Computer Science & Engineering student and full-stack developer specializing in the MERN stack, Java, and Spring Boot.",
+    "Portfolio of Kaushal Rana, a B.Tech Computer Science & Engineering student and full-stack developer specializing in the MERN stack, Java, and Spring Boot.",
   keywords: [
     "Full-Stack Developer",
     "MERN Stack",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     "B.Tech CSE Portfolio",
   ],
   openGraph: {
-    title: "Your Name — Full-Stack Developer",
+    title: "Kaushal Rana — Full-Stack Developer",
     description:
       "B.Tech CSE student and full-stack developer building with React, Node.js, Java, and Spring Boot.",
     type: "website",
