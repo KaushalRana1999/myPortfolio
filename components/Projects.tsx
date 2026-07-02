@@ -52,6 +52,31 @@ const PROJECTS = [
       "/projects/Hospital/Hospital-3.png",
     ],
   },
+  {
+  name: "Employee Management System (EMS) Portal",
+  tag: "Full-Stack Web App",
+  description:
+    "A portal for managing employees, departments, tasks, and leave requests, with role-based access for Admin, HR, and Employees.",
+  longDescription:
+    "A comprehensive employee management system built with the MERN stack to streamline HR and organizational workflows. Admins can oversee departments, manage employees, and generate analytics. HR staff handle onboarding, leave approvals, and performance reports. Employees have their own portal to update profiles, track tasks, and apply for leave. The system features secure authentication, role-based dashboards, and a responsive UI for efficient workforce management.",
+  features: [
+    "Role-based dashboards for Admin, HR, and Employees",
+    "Employee record management with CRUD operations",
+    "Department creation and management",
+    "Task assignment and tracking",
+    "Leave application and approval workflow",
+    "Analytics and reporting with charts",
+    "Secure authentication with JWT",
+  ],
+  stack: ["React", "Node.js", "Express", "MongoDB", "JWT", "TailwindCSS"],
+  github: "https://github.com/KaushalRana1999/EMS",
+  live: "https://ems-frontend-0ua1.onrender.com",
+  images: [
+    "/projects/EMS/EMS-1.png",
+    "/projects/EMS/EMS-2.png",
+  ],
+}
+
 
 ];
 
