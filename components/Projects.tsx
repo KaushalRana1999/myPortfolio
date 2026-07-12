@@ -75,8 +75,30 @@ const PROJECTS = [
     "/projects/EMS/EMS-1.png",
     "/projects/EMS/EMS-2.png",
   ],
-}
+},
 
+{
+  name: "Todo Application",
+  tag: "Full-Stack Web App",
+  description:
+    "A simple application for managing tasks, allowing users to create, update, and delete to‑dos, set deadlines, and track completion status",
+  longDescription: "A simple yet powerful task management application built with Spring Boot (Java) and PostgreSQL. Users can create, update, delete, and mark tasks as complete, with support for deadlines and status tracking. The backend is powered by RESTful APIs with Hibernate/JPA for ORM, while the frontend is served through Spring Boot’s resources/static directory, enabling a single deployment structure. Designed with a responsive UI and secure database integration, the app helps users organize and track their daily activities efficiently.",
+features: [
+  "CRUD operations for task management",
+  "Deadline and completion status tracking",
+  "Spring Boot RESTful APIs with Java",
+  "PostgreSQL database integration with Hibernate/JPA",
+  "Frontend served via resources/static for unified deployment",
+  "Responsive UI for seamless user experience",
+  "Cloud-ready configuration with environment-based DB connection"
+  ],
+  stack: ["React", "java", "SpringBoot", "PostgreSQL", "TailwindCSS"],
+  github: "https://github.com/KaushalRana1999/Todo-App/tree/main/src",
+  live: "https://todo-app-nczm.onrender.com/",
+  images: [
+    "/projects/Todo/Todo.png",
+  ],
+},
 
 ];
 
